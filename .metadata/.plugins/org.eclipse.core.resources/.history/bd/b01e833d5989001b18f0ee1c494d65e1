@@ -1,0 +1,6 @@
+server.port=8081
+
+# 빈 Overriding 설정
+spring.main.allow-bean-definition-overriding=true
+
+# 데이터소스 : Oracle
