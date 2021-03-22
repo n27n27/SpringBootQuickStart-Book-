@@ -1,0 +1,4 @@
+2021:03:21 11:08:43.132 WARN  --- [restartedMain] com.springboot.LoggingRunner : WARN ë¡œê·¸ ë©”ì‹œì§€ 
+2021:03:21 11:08:43.134 ERROR --- [restartedMain] com.springboot.LoggingRunner : ERROR ë¡œê·¸ ë©”ì‹œì§€ 
+2021:03:21 11:14:50.509 WARN  --- [main] com.springboot.LoggingRunner : WARN ·Î±× ¸Þ½ÃÁö 
+2021:03:21 11:14:50.513 ERROR --- [main] com.springboot.LoggingRunner : ERROR ·Î±× ¸Þ½ÃÁö 

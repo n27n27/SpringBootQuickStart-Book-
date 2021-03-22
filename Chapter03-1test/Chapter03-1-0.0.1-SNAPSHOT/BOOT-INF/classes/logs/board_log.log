@@ -1,0 +1,12 @@
+2021:03:21 11:23:25.888 WARN  --- [main] com.springboot.LoggingRunner : WARN 로그 메시지 
+2021:03:21 11:23:25.891 ERROR --- [main] com.springboot.LoggingRunner : ERROR 로그 메시지 
+2021:03:21 11:23:53.282 WARN  --- [main] com.springboot.LoggingRunner : WARN 로그 메시지 
+2021:03:21 11:23:53.285 ERROR --- [main] com.springboot.LoggingRunner : ERROR 로그 메시지 
+2021:03:21 11:24:03.636 WARN  --- [restartedMain] com.springboot.LoggingRunner : WARN 로그 메시지 
+2021:03:21 11:24:03.638 ERROR --- [restartedMain] com.springboot.LoggingRunner : ERROR 로그 메시지 
+2021:03:21 11:24:12.558 WARN  --- [restartedMain] com.springboot.LoggingRunner : WARN 로그 메시지 
+2021:03:21 11:24:12.562 ERROR --- [restartedMain] com.springboot.LoggingRunner : ERROR 로그 메시지 
+2021:03:21 11:24:24.660 WARN  --- [restartedMain] com.springboot.LoggingRunner : WARN 로그 메시지 
+2021:03:21 11:24:24.660 ERROR --- [restartedMain] com.springboot.LoggingRunner : ERROR 로그 메시지 
+2021:03:21 11:24:26.478 WARN  --- [restartedMain] com.springboot.LoggingRunner : WARN 로그 메시지 
+2021:03:21 11:24:26.478 ERROR --- [restartedMain] com.springboot.LoggingRunner : ERROR 로그 메시지 

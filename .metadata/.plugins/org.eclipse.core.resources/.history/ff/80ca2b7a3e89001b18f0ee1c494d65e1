@@ -1,4 +1,0 @@
-server.port=8081
-
-##WebApplication Type Setting
-spring.main.web-application-type=none

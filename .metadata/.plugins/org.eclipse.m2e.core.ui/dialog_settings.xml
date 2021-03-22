@@ -36,7 +36,7 @@
 			<item value="com.rubypaper"/>
 		</list>
 		<list key="artifactId">
-			<item value="board-spring-boot-starter"/>
+			<item value="Chapter04"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
