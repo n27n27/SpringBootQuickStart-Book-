@@ -5,7 +5,28 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2021-03-19T07:30:00Z</updated>
+  <updated>2021-03-22T18:53:00Z</updated>
+  <entry>
+    <title>Bootiful Cassandra with DataStax's Patrick McFadin, Cedrick Lunven, and Spring's Josh Long</title>
+    <link rel="alternate" href="https://spring.io/blog/2021/03/22/bootiful-cassandra-with-datastax-s-patrick-mcfadin-cedrick-lunven-and-spring-s-josh-long" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2021-03-22:4396</id>
+    <updated>2021-03-22T18:53:00Z</updated>
+    <content type="html">&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/fGTZUObja7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;Hi, Spring fans! DataStax and Spring &lt;em&gt;are&lt;/em&gt; the classic Netflixian definition of a cloud-native, and for good reason: &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;they scales&lt;/li&gt;
+  &lt;li&gt;they&amp;rsquo;re easy&lt;/li&gt;
+  &lt;li&gt;they&amp;rsquo;re easily operationalized&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this video, join DataStax&amp;rsquo;s &lt;a href="http://twitter.com/PatrickMcFadin"&gt;Patrick McFadin (@PatrickMcFadin)&lt;/a&gt;, &lt;a href="http://twitter.com/clunven"&gt;Cedrick Lunven (@clunven)&lt;/a&gt;, and the Spring team&amp;rsquo;s &lt;a href="http://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt; as they introduce Bootiful Cassandra and look at some of the technology that continues to power some of the largest websites on the planet. &lt;/p&gt;
+&lt;p&gt;Register for DataStax Astra now and try this code anytime. You don&amp;rsquo;t need a credit card, and you get $25.00 USD credit every month, which gives you roughly 30M reads, 5M writes, 40GB storage monthly. That¡¯s sufficient enough to run this demo and even a small production workload.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://dtsx.io/3qjjRdR"&gt;Register here&lt;/a&gt;&lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Spring Boot 2.5.0-M3 available now</title>
     <link rel="alternate" href="https://spring.io/blog/2021/03/19/spring-boot-2-5-0-m3-available-now" />
@@ -1096,48 +1117,6 @@ public class WebClientApplication {
   &lt;li&gt;&lt;a href="https://spring.io/blog/2021/03/01/spring-integration-zip-1-0-4-cve-2021-22114"&gt;Spring Integration Zip 1.0.4 &amp;amp; CVE-2021-22114&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;I love this video from RedMonk, &lt;a href="https://redmonk.com/videos/what-is-a-distributed-api-gateway/"&gt;&lt;em&gt;What is a Distributed API Gateway? How to get started with Spring Cloud Gateway for Kubernetes&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Integration Zip 1.0.4 &amp; CVE-2021-22114</title>
-    <link rel="alternate" href="https://spring.io/blog/2021/03/01/spring-integration-zip-1-0-4-cve-2021-22114" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Artem Bilan</name>
-    </author>
-    <id>tag:spring.io,2021-03-01:4376</id>
-    <updated>2021-03-01T14:40:00Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;Dear Spring community,&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;On behalf of the team and everyone who contributed, it is my pleasure to announce &lt;code&gt;1.0.4.RELEASE&lt;/code&gt; version for Spring Integration Zip extension.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="cve-2021-22114"&gt;&lt;a class="anchor" href="#cve-2021-22114"&gt;&lt;/a&gt;CVE-2021-22114&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The &lt;code&gt;UnZipTransformer&lt;/code&gt; doesn&amp;#8217;t cover all the cases for &lt;a href="https://snyk.io/research/zip-slip-vulnerability"&gt;Zip Slip Vulnerability&lt;/a&gt; and some particular zip entry names may still end up outside of working directory.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The updated fix has been released in the &lt;code&gt;spring-integration-zip-1.0.4.RELEASE&lt;/code&gt; version together with some other bug fixes and improvements.
-We also have published a new advisory for &lt;a href="https://tanzu.vmware.com/security/cve-2021-22114"&gt;CVE-2021-22114&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Credit: Trung Pham, Viettel Cyber Security.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Everybody who&amp;#8217;s using unzip feature from Spring Integration Zip is encouraged to upgrade respectively.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Cheers,&amp;#160;&lt;br&gt;
-Artem&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-integration-extensions"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-integration-extensions/issues"&gt;GitHub Issues&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-integration/blob/master/CONTRIBUTING.adoc"&gt;Contributing&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-integration"&gt;Help&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-integration"&gt;Chat&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>
