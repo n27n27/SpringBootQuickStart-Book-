@@ -19,7 +19,6 @@
     <fullyQualifiedTypeName name="com.querydsl.core.BooleanBuilder"/>
     <fullyQualifiedTypeName name="org.springframework.data.domain.PageRequest"/>
     <fullyQualifiedTypeName name="org.springframework.data.domain.Pageable"/>
-    <fullyQualifiedTypeName name="org.springframework.data.domain.Page"/>
     <fullyQualifiedTypeName name="org.junit.Test"/>
     <fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
     <fullyQualifiedTypeName name="com.springboot.domain.Member"/>
@@ -29,4 +28,5 @@
     <fullyQualifiedTypeName name="javax.persistence.Entity"/>
     <fullyQualifiedTypeName name="javax.persistence.Id"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.springframework.data.domain.Page"/>
 </qualifiedTypeNameHistroy>
