@@ -6287,3 +6287,15 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2476)
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-24 12:41:35.417
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.PtLeBTTd
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-24 12:41:35.418
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.PtLeBTTd
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-24 12:41:35.427
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-24 12:41:35.428
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.PtLeBTTd => OK
